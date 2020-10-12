@@ -1,12 +1,13 @@
 def make_list():
     for i in range(0, 3):
-        a = 5
+        a = get_input()
         input_list.append(a)
     print(input_list)
     return input_list
 
 def get_input():
-    pass
+    data = input('Please enter a number: ')
+    return data
 
 
 input_list = []
